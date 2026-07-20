@@ -1,6 +1,6 @@
 {
   "Content": {
-    "Location": "Z:\\Zolian\\Data\\ServerData",
+    "Location": "D:\\ServerData",
     // https://www.abuseipdb.com/ API Key -- Will need to setup an account to obtain a key
     // This keycode is important to prevent attackers from attacking your server
     // Default: 
@@ -179,13 +179,12 @@
     "LOGIN_PORT": 4201,
     "LOBBY_PORT": 4200,
     // Name of the server
-    "SERVER_TITLE": "Zolian",
+    "SERVER_TITLE": "Elysium",
     // Welcome messages shown to players upon login
     "ServerWelcomeMessage": "Welcome to Zolian",
     // Names of GMs, if a name is added here, it grants that player GM powers.
     "GameMasters": [
-      "Death",
-      "Alvino"
+      "Ace"
     ],
     // If learning_predicates is contained within this array, it exempts GMs from learning predicates
     // Default: "learning_predicates"
@@ -203,7 +202,7 @@
 
     // Check Packet 00
     // This check sets the current client that should be used
-    "ClientVersion": 914,
+    "ClientVersion": 741,
 
     // Messages
     // Forces the client to send a clear message every set seconds

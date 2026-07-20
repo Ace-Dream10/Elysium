@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFramework>net11.0</TargetFramework>
+		<TargetFramework>net10.0</TargetFramework>
 		<LangVersion>latest</LangVersion>
 		<EnableWindowsTargeting>True</EnableWindowsTargeting>
 		<Authors>Zolian Contributors</Authors>
@@ -42,7 +42,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Chaos-Networking" Version="3.2.0" />
 		<PackageReference Include="Dapper.StrongName" Version="2.1.79" />
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.0-preview2.26190.5" />
 		<PackageReference Include="Microsoft.DependencyValidation.Analyzers" Version="0.11.0" />
@@ -54,7 +53,7 @@
 		<PackageReference Include="Serilog.Sinks.File" Version="8.0.0-nblumhardt-02322" />
 		<PackageReference Include="ServiceStack" Version="10.0.8" />
 		<PackageReference Include="ServiceStack.Text" Version="10.0.8" />
-		<PackageReference Include="SunCalcNet" Version="1.2.4" />
+		<PackageReference Include="SunCalcNet" Version="1.2.3" />
 		<PackageReference Include="zlib.net-mutliplatform" Version="1.1.0" />
 	</ItemGroup>
 
@@ -64,6 +63,10 @@
 
 	<ItemGroup>
 	  <Folder Include="GameScripts\Mundanes\Atlantis\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\..\Chaos-Network\Chaos.Networking\Chaos.Networking.csproj" />
 	</ItemGroup>
 
 	<Import Project="..\Server.Configurations\Server.Configurations.projitems" Label="Shared" />

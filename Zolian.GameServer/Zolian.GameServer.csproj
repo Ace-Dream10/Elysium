@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFramework>net11.0-windows7.0</TargetFramework>
+		<TargetFramework>net10.0-windows7.0</TargetFramework>
 		<LangVersion>latest</LangVersion>
 		<EnableWindowsTargeting>True</EnableWindowsTargeting>
 		<Authors>Zolian Contributors</Authors>
@@ -41,7 +41,6 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Chaos-Networking" Version="3.2.0" />
 		<PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.0-preview2.26190.5" />
 		<PackageReference Include="Microsoft.DependencyValidation.Analyzers" Version="0.11.0" />
 		<PackageReference Include="Microsoft.Extensions.Hosting" Version="11.0.0-preview.6.26359.118">
@@ -60,6 +59,7 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\Zolian.Server.Base\Zolian.Server.Base.csproj" />
+		<ProjectReference Include="..\..\Chaos-Network\Chaos.Networking\Chaos.Networking.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
