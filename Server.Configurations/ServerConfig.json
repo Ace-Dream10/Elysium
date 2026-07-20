@@ -43,8 +43,8 @@
     // Currently disabled
     "NationReturnHours": 1,
     // Map to spawn players after they log in the first time
-    // Default Map: 7000, X: 7, Y: 23
-    "StartingMap": 7000,
+    // Default Map: 9000, X: 7, Y: 23
+    "StartingMap": 9000,
     "StartingPosition": {
       "X": 7,
       "Y": 23

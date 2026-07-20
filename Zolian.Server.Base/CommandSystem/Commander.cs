@@ -214,7 +214,7 @@ public static class Commander
     }
 
     private static bool IsDeath(WorldClient client)
-        => client.Aisling.Username.Equals("death", StringComparison.InvariantCultureIgnoreCase);
+         => client.Aisling.GameMaster;
 
     private static bool RequireDeath(WorldClient client, string denialMessage)
     {
