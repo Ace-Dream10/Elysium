@@ -26,3 +26,4 @@ vs
 git\*
 *.7z
 *.txt
+NuGet.Config
